@@ -4,6 +4,7 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
         <item
             android:id="@+id/nav_Ajalugu"
             android:title="Ajalugu" />
@@ -21,7 +22,7 @@
             android:title="Klubid"/>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Kommunikeeri">
         <menu>
             <item
                 android:id="@+id/nav_share"

@@ -6,4 +6,18 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="tutvustus">Tere, mina olen Maido Kaiste ja minu hobi on jalgpall. See rakendus on ülevaade minu hobist.</string>
+    <string name="ajalootekst">Jalgpallilaadset mängu mainivad vanimad kirjalikud allikad on Hiina sõjaväe käsiraamatud 2. ja 3. sajandist eKr.
+        Euroopas on selliseid mänge harrastatud keskajast.  Kaasaegne jalgpall sai alguse katsetest ühtlustada 1840. aastail Inglismaa koolides kehtinud mängureegleid.
+        Nende püüdluste tulemusena asutasid 12 klubi ja kooli 1863. aastal Inglismaa jalgpalliliidu (The Football Association ehk FA).
+        Osa neist ei olnud nõus jõuvõtete keelustamisega ja lõid lahku, moodustades 1871. aastal Inglismaa ragbiliidu.
+        Vaidlustele tegi lõpu 1886. aastal Inglismaa, Šotimaa, Walesi ja Iirimaa jalgpalliliidu asutatud Rahvusvahelise Jalgpalli Nõukogu (IFAB).
+        Jalgpalli esitine areng leidis aset Briti saartel. Maailma vanim jalgpallivõistlus on 1871. aastal käivitunud FA karikas.
+        Esimese ametliku maavõistluse pidasid 1872. aastal Inglismaa ja Šotimaa. Vanim liiga on 1888. aastal asutatud The Football League, mis oli Inglismaa kõrgliigaks 1992. aastani.
+        Rahvusvahelise jalgpalliliidu FIFA moodustasid 1904. aastal Pariisis seitsme riigi esindused.
+        Prantsusmaa algatusel loodud ühendus lubas kinni pidada Briti saartel väljakujunenud mängureeglitest.
+        Esimesed maailmameistrivõistlused peeti 1930. aastal.  Eestisse tõid mänguoskused ja -vahendid 20. sajandi esimestel aastatel inglise madrused.
+        Eesti jalgpalli sünnipäevaks loetakse 6. juuni 1909, kui mõõtu võtsid esimeste meeskondadena loodud Meteor ja Merkuur.
+        Kohalik jalgpallielu hakkas kihama pärast Vabadussõda: 20. oktoobril 1920 pidas koondis esimese maavõistluse (Helsingis 0:6 kaotus Soomele ning 14. detsembril 1921 asutati Eesti Jalgpalli Liit, mis 1923. aastal astus FIFA-sse.
+        Eesti meeskond osales 1924. aasta suveolümpiamängudel, mis on tänaseni jäänud koondise ainsaks suurturniiriks.</string>
 </resources>
