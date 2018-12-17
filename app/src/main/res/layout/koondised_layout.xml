@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
 
     <TextView
-        android:text="Koondised ja rahvusvahelised võistlused"
+        android:text="Koondised ja rahvusvahelised suurvõistlused"
         android:id="@+id/koondised"
+        android:textSize="27sp"
+        android:textColor="@color/tekst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jalgpallikoondised on iga riigi esindusvõistkonnad, kus reeglina mängivad selle maa parimad mängijad. Koondistel on võimalus pääseda valikmängude kaudu maailmameistrivõistlustele või oma maailmajao meistrivõistlustele.
+
+Esimesed maailmameistrivõistlused toimusid 1930. aastal. Finaalturniir peetakse iga nelja aasta tagant. Sinna pääsevad alates 1998. aastast 32 riigi koondised. Igal piirkondlik alaliit saab kindel arv kvalifikatsioonikohti.
+
+Euroopa meistrivõistlusi peetakse 1960. aastast. Finaalturniir toimub iga nelja aasta tagant. Sinna pääsevad alates 2016. aastast 24 riigi koondised.
+
+Meistrivõistlused leiavad aset ka Lõuna-Ameerikas, Aafrikas, Aasias, Kesk-Ameerikas ja Okeaanias.
+
+FIFA korraldab samuti naiste, noorte ja juunioride maailmameistrivõistlusi."
+        android:textSize="14sp"
+        android:textColor="@color/tekst"/>
+
+
+</LinearLayout>

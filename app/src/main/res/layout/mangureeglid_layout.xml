@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/mänguväljak"
+    >
 
     <TextView
         android:text="Mängureeglid"
-        android:id="@+id/mängureeglid"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="@color/tekst"
+        android:id="@+id/ajalugu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ajalugu"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/tekst"
+        android:text="  Ühes võistkonnas mängib väljakul korraga kuni 11 mängijat, kellest üks peab olema väravavaht. Väravavaht tohib ainsana palli käega puutuda, kuid seda vaid oma karistusalal.
+
+    Mängija kohustuslikku põhivarustusse kuuluvad pikkade või lühikeste käistega jalgpallisärk, lühikesed püksid, põlvikud, jalanõud, säärekaitsed ja väravavahil kindad. Mängijad peavad kandma sellist riietust, mis eristab neid vastasvõistkonna mängijast ja väljakukohtunikust. Väravavahid peavad olema selgelt äratuntavad.
+
+     Mängu juhib väljakukohtunik ja teda abistavad kaks abikohtunikku ning neljas kohtunik, kes näitab mängu ajal annab mängijatele, numbritablood kasutades, vahetus(t)est teada.
+
+    Mängus on kaks poolaega, kumbki pikkusega 45 minutit ja nende vahel 15-minutiline vaheaeg. Mängu lõpetab kohtuniku vile, seetõttu on poolajad tihti mõne minuti võrra ettenähtud ajast pikemad. Rohkem väravaid löönud võistkond on võitja. Kui juhtub, et väravaid ei lööda ja mängu võitja peab kindlasti selguma, võidakse määrata lisaaeg. Kui ka siis ei ole tulemust, määratakse 11 meetri karistuslöögid ehk penaltid.
+
+    Kollane kaart tähendab hoiatust, punane kaart eemaldamist. Piirikohtunikud määravad suluseisu"
+        android:textSize="13sp"/>
+
+    <ImageView
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/kaardid"/>
 
 </RelativeLayout>

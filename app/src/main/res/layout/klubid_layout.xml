@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
-        android:text="Klubid"
+        android:text="Klubid, liigad ja karikavõistlused"
         android:id="@+id/klubid"
+        android:textSize="26.7dp"
+        android:textColor="@color/tekst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/tekst"
+        android:layout_height="wrap_content"
+        android:text="  Jalgpalliklubid saavad osaleda oma maa liiga- ja eri karikavõistlustel.
 
-</RelativeLayout>
+    Ühte liigasse kuuluvad võistkonnad kohtuvad reeglina hooaja jooksul üksteisega vähemalt kaks korda. Paremusjärjestus nähtub punktitabelist. Võit annab kolm ja viik ühe punkti. Liigasüsteem on organiseeritud hierarhiliselt: tugevamad pääsevad lõpptabeli selgudes hooaja lõppedes astme võrra kõrgemale ja nõrgimad langevad astme võrra madalamale. Süsteemi tipus asuva kõrgliiga võitja pälvib maa meistritiitli ja parimad saavad õiguse osaleda rahvusvahelistes sarjades.
+
+    Peale liigamängude peetakse ka üleriiklikke, piirkondlikke ja liigasiseseid karikavõistlusi, kus igast voorust pääsevad edasi ainult võitjad. Olenevalt riigist võivad karikavõitjad saada õiguse osaleda rahvusvahelistes sarjades.
+
+    Euroopa viis parimat kõrgliigat on Premier League (Inglismaa), Primera División (Hispaania), Serie A (Itaalia), Bundesliga (Saksamaa) ja Ligue 1 (Prantsusmaa).[12][13] Parimad klubid pääsevad rahvusvahelistesse sarjadesse, näiteks UEFA Meistrite Liiga ja UEFA Euroopa Liiga Euroopas või Copa Libertadores Lõuna-Ameerikas. Meistrite Liiga ja Euroopa Liiga tiitliomanikud selgitavad omavahel Euroopa Superkarika võitja."/>
+
+
+</LinearLayout>
